@@ -27,7 +27,7 @@
   - `prefix + y` - copies text from the command line to clipboard.
   - `prefix + Y` (shift-y) - copy pane current working directory to clipboard.
 
-** **copy mode** bindings:
+** Copy mode ** bindings:
   - `y` - copy selection to system clipboard
   - `Y` (shift-y) - "put" selection - equivalent to copying a selection, and
   pasting it to the command line
