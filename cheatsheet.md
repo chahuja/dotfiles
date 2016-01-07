@@ -16,17 +16,18 @@
 
 # Python Dependency tree
 * sfood or snakefood
-- sfood path2project | sfood-graph | dot -Tps > out.eps
+  - sfood path2project | sfood-graph | dot -Tps > out.eps
 
 # Tmux
 * Save session and restore
-- prefix + C-s -- save session
-- prefix + C-r -- restore session
+  - prefix + C-s -- save session
+  - prefix + C-r -- restore session
 
 * Copy and paste
-- `prefix + y` - copies text from the command line to clipboard.
-- `prefix + Y` (shift-y) - copy pane current working directory to clipboard.
-**copy mode** bindings:
-- `y` - copy selection to system clipboard
-- `Y` (shift-y) - "put" selection - equivalent to copying a selection, and
+  - `prefix + y` - copies text from the command line to clipboard.
+  - `prefix + Y` (shift-y) - copy pane current working directory to clipboard.
+
+** **copy mode** bindings:
+  - `y` - copy selection to system clipboard
+  - `Y` (shift-y) - "put" selection - equivalent to copying a selection, and
   pasting it to the command line
