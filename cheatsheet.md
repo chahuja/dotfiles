@@ -20,8 +20,8 @@
 
 ## Tmux
 * Save session and restore
-  - prefix + C-s -- save session
-  - prefix + C-r -- restore session
+  - `prefix + C-s` - save session
+  - `prefix + C-r` - restore session
 
 * Copy and paste
   - `prefix + y` - copies text from the command line to clipboard.
@@ -34,4 +34,4 @@
 
 ## Synchronize panes
 * used to type the same commands in all the panes
-  - prefix + :setw synchronize-panes
+  - `prefix + :setw synchronize-panes`
