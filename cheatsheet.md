@@ -10,6 +10,18 @@
 
 ## ~/scripts/
 * atlas-login : remote login to workstation and servers
+* new-project : Creates a folder tree for a new project based on a model
+  - Usage - `new-project <project-name>`
+  - ```sh
+  project-name
+		├── dataset/
+		├── notes/
+		├── papers/
+		├── src/
+		└── README
+	```
+* rsync-gdrive : uses rsync to maintain a backup copy on the remote server
+* youtube-music : uses youtube-dl to download music from a given list of URLs
 
 ## useful programs
 * alias : list all the aliases
