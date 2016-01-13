@@ -32,8 +32,7 @@
   - `Y` (shift-y) - "put" selection - equivalent to copying a selection, and
   pasting it to the command line
 
-## Synchronize panes
-* used to type the same commands in all the panes
+* Synchronize panes - used to type the same commands in all the panes
   - `prefix + :setw synchronize-panes`
 
 ## Take Screenshots
