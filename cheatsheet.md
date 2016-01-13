@@ -13,7 +13,7 @@
 * new-project : Creates a folder tree for a new project based on a model
   - Usage - `new-project <project-name>`
   - ```sh
-  project-name
+  	project-name
 		├── dataset/
 		├── notes/
 		├── papers/
