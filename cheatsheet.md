@@ -35,3 +35,8 @@
 ## Synchronize panes
 * used to type the same commands in all the panes
   - `prefix + :setw synchronize-panes`
+
+## Take Screenshots
+* `gnome-screenshot`
+   - `-a` for custom area
+   - `-w` for a window
