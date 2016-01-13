@@ -1,16 +1,16 @@
 # Cheatsheet
-* A collection of all the commands and personalized scripts on this workstation
+A collection of all the commands and personalized scripts on this workstation
 
-## Processes
-* htop
+## Running Processes
+* `htop`
 
-## Dual Monitors
-* arandr - gui
-* xrandr - commandline
+## Multiple Monitors
+* `arandr` - gui
+* `xrandr` - commandline
 
 ## ~/scripts/
-* atlas-login : remote login to workstation and servers
-* new-project : Creates a folder tree for a new project based on a model
+* `atlas-login` : remote login to workstation and servers
+* `new-project` : Creates a folder tree for a new project based on a model
   - Usage - `new-project <project-name>`
 
 ```sh
@@ -21,15 +21,12 @@
   ├── src/
   └── README
 ```
-* rsync-gdrive : uses rsync to maintain a backup copy on the remote server
-* youtube-music : uses youtube-dl to download music from a given list of URLs
-
-## useful programs
-* alias : list all the aliases
+* `rsync-gdrive` : uses rsync to maintain a backup copy on the remote server
+* `youtube-music` : uses youtube-dl to download music from a given list of URLs
 
 ## Python Dependency tree
-* sfood or snakefood
-  - sfood path2project | sfood-graph | dot -Tps > out.eps
+* `sfood` or `snakefood`
+  - `sfood path2project | sfood-graph | dot -Tps > out.eps`
 
 ## Tmux
 * Save session and restore
@@ -52,3 +49,8 @@
 * `gnome-screenshot`
    - `-a` for custom area
    - `-w` for a window
+
+## Miscellaneous(which don't fit in current categories) Programs
+* `alias` : list all the aliases
+* `grip` : tool to view markdown like github
+
