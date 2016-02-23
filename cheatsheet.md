@@ -54,3 +54,9 @@ A collection of all the commands and personalized scripts on this workstation
 * `alias` : list all the aliases
 * `grip` : tool to view markdown like github
 
+## Take photographs from the webcam
+* `mplayer` :
+  - `mplayer -vo png -frames 1 tv://`
+
+## iPython Notebook
+* `ipython notebook` : takes the profile from `~/.jupyter/jupyter_notebook_config.py`
