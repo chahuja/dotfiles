@@ -60,3 +60,8 @@ A collection of all the commands and personalized scripts on this workstation
 
 ## iPython Notebook
 * `ipython notebook` : takes the profile from `~/.jupyter/jupyter_notebook_config.py`
+* The indent tab can be changed by using the browser console
+  [http://jupyter-notebook.readthedocs.io/en/latest/frontend_config.html](Link)
+
+* Custom Theme installer for Jupyter
+  - https://github.com/dunovank/jupyter-themes
