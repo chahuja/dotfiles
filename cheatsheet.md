@@ -65,3 +65,7 @@ A collection of all the commands and personalized scripts on this workstation
 
 * Custom Theme installer for Jupyter
   - https://github.com/dunovank/jupyter-themes
+
+## Print using terminal
+* `lpr <file-path> -P <printer-name> -o sides=two-sided-long-edge
+* `lpstat -p lists all the printers and their states`
