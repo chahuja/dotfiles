@@ -144,6 +144,23 @@ To un-apply **(stash -> do-some-work -> remove the changes caused by applying st
 git stash show -p <stash-name> | git apply -R
 ```
 
+Deleting
+--------
+
+To delete a file/folder from a working tree as well as the local directory
+
+```sh
+git rm -r <file/folder name>
+```
+
+To prevent deletion of the file from the local directory
+
+```sh
+git rm -r --cached <file/folder name>
+```
+
+Commit your changes after.
+
 **Note:** If you don't specify a stash, git assumes the latest stash.
 
 # TO TRY
