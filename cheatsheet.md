@@ -53,6 +53,7 @@ A collection of all the commands and personalized scripts on this workstation
 ## Miscellaneous(which don't fit in current categories) Programs
 * `alias` : list all the aliases
 * `grip` : tool to view markdown like github
+* `vitable` : tool to visualize hdf(h5py)files
 
 ## Take photographs from the webcam
 * `mplayer` :
