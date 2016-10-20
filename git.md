@@ -1,6 +1,28 @@
 Common GIT commands
 ===================
 
+Adding Files
+------------
+
+Adding particular files
+```sh
+git add <file-names>
+```
+
+Adding all files in the current folder
+```sh
+git add .
+```
+
+If add a file by mistake, use 
+```sh
+git reset <file-name>
+```
+or to reset all staged files
+```sh
+git reset
+```
+
 Pulling vs Fetching
 -------------------
 
